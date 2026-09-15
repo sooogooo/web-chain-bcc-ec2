@@ -1,0 +1,109 @@
+# robots.txt for ec2.chain.bccsw.cn
+# 联合丽格集团品牌加盟官网
+
+User-agent: *
+Allow: /
+Disallow: /tmp/
+Disallow: /*.log$
+Disallow: /images01/
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://ec2.chain.bccsw.cn/sitemap.xml
+
+# 主要搜索引擎
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /images01/
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+Disallow: /images01/
+
+User-agent: Yisouspider
+Allow: /
+Disallow: /images01/
+
+User-agent: Sososospider
+Allow: /
+Disallow: /images01/
+
+# 社交媒体爬虫
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Facebookexternalhit
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+# 阻止抓取备份目录
+Disallow: /backup*
+Disallow: /*-202*
+
+# 允许图片搜索引擎
+User-agent: Googlebot-Image
+Allow: /images01/
+
+User-agent: msnbot
+Allow: /
+
+# 生成式 AI 搜索引擎 / Generative Engine Optimization (GEO)
+# 允许主流 AI 搜索引擎抓取本站点内容
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
